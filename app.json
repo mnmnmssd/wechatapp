@@ -1,0 +1,9 @@
+{
+  "pages": [
+    "pages/about/about"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#38f",
+    "navigationBarTitleText": "LOVE"
+  }
+}
