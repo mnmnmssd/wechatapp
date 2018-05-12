@@ -1,0 +1,77 @@
+.love-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 100%;
+}
+
+.love-banner {
+  text-align: center;
+  height: 360rpx;
+  z-index: 2;
+}
+
+.love-img {
+  border-radius: 15px;
+}
+
+.post-item {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #eee;
+}
+
+.love-detil {
+  background: red;
+  margin: 20rpx auto;
+  height: 250rpx;
+  width: 720rpx;
+  border-radius: 10px;
+}
+
+.avatar-date {
+  display: flex;
+  flex-direction: row;
+}
+
+.avatar {
+  margin: 20rpx 25rpx;
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.love-text {
+  color: white;
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+.love-post {
+  font-size: 23px;
+  color: #38f;
+  position: relative;
+  bottom: 10px;
+  left: 15px;
+  text-align: center;
+}
+
+.detil {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  float: right;
+  position: relative;
+  bottom: 10px;
+  right: 10px;
+  height: 45rpx;
+}
+
+.zan {
+  width: 55rpx;
+  height: 45rpx;
+}
+
+.detil text {
+  line-height: 45rpx;
+}

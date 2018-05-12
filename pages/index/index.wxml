@@ -1,0 +1,30 @@
+<view class='love-container'>
+  <swiper class='love-banner' autoplay='true' interval='3000' indicator-dots='true' indicator-color='black' indicator-active-color='red' circular='true'>
+    <swiper-item>
+      <image src='images/banner.jpg' class='love-img'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='images/bl.png' class='love-img'></image>
+    </swiper-item>
+    <swiper-item>
+      <image src='images/cat.png' class='love-img'></image>
+    </swiper-item>
+  </swiper>
+  <view class='post-item'>
+    <block wx:for="{{data_key}}">
+      <view class='love-detil'>
+        <view class='avatar-date'>
+          <image src="{{item.avatar}}" class='avatar'></image>
+          <text class='love-text'>{{item.date}}</text>
+        </view>
+        <view class='love-post'>
+          <text>{{item.post}}</text>
+        </view>
+        <view class='detil'>
+          <image src='images/zan.png' class='zan'></image>
+          <text>{{item.contouned}}个人赞过</text>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

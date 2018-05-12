@@ -1,9 +1,27 @@
 {
   "pages": [
+    "pages/index/index",
     "pages/about/about"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#38f",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black",
     "navigationBarTitleText": "LOVE"
+  },
+  "tabBar": {
+    "backgroundColor": "#000",
+     "color": "#fff",
+     "selectedColor": "#38f",
+    "list":[{
+          "pagePath":"pages/index/index",
+          "text": "浏览",
+          "iconPath":"pages/icons/love-anti.png",
+          "selectedIconPath": "pages/icons/love.png"
+        }, {
+          "pagePath": "pages/about/about",
+          "text": "发布",
+          "iconPath": "pages/icons/love-chat.png",
+          "selectedIconPath": "pages/icons/love-chated.png"
+        }]
   }
 }

@@ -1,1 +1,3 @@
-<text class="info">Hello World</text>
+<view>
+  <text>浏览</text>
+</view>
