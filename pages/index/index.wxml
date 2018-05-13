@@ -22,7 +22,7 @@
           <text>{{post}}</text>
         </view>
         <view class='detil'>
-          <image src='images/zan.png' class='zan'></image>
+          <image src='images/zan.png' class='zan' catchtap='onZaned'></image>
           <text>{{item.contouned}}个人赞过</text>
         </view>
       </view>

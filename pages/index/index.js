@@ -1,4 +1,5 @@
 var postData = require("../data/data-databases.js")
+var zan = wx.getStorageSync("posts")
 Page({
 
   /**
@@ -13,16 +14,16 @@ Page({
    */
   onLoad: function (options) {
     // console.log(postData.postlist)
-    // this.setData({
-    //   data_key:postData.postlist,
-    // })
-    var posts = wx.getStorageSync("posts");
-    // console.log(posts);
-    postData.postlist = posts;
+    wx.setStorageSync("posts", postData.postlist)
+
     this.setData({
-      data_key:postData.postlist
+      data_key:postData.postlist,
     })
     console.log(postData.postlist)
+  },
+
+  onZaned:function(event){
+    wx.setStorageSync("zan",zan[3].contouned++)
   },
   /**
    * 生命周期函数--监听页面初次渲染完成

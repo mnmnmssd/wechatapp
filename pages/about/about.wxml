@@ -1,6 +1,6 @@
  <view>
   <input class='usertitle' type='text' placeholder='标题' bindinput='userpost'></input>
   <input class='usertitle' type='text' placeholder='日期' bindinput='userdate'></input>
-  <input class='usertitle' type='text' placeholder='点赞' bindinput='userzan'></input>
+  <input class='usertitle' type='number' placeholder='点赞' bindinput='userzan'></input>
   <button bindtap='userput'>发布</button>
 </view>
