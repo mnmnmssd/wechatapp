@@ -1,12 +1,14 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/user/user",
     "pages/about/about"
   ],
   "window": {
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "LOVE"
+    
   },
   "tabBar": {
     "backgroundColor": "#000",
@@ -20,6 +22,11 @@
         }, {
           "pagePath": "pages/about/about",
           "text": "发布",
+          "iconPath": "pages/icons/love-chat.png",
+          "selectedIconPath": "pages/icons/love-chated.png"
+        },{
+          "pagePath": "pages/about/about",
+          "text": "我",
           "iconPath": "pages/icons/love-chat.png",
           "selectedIconPath": "pages/icons/love-chated.png"
         }]

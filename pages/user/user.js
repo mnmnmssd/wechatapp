@@ -1,29 +1,19 @@
-var postData = require("../data/data-databases.js")
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    post:""
+    
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    // console.log(postData.postlist)
-    // this.setData({
-    //   data_key:postData.postlist,
-    // })
-    var posts = wx.getStorageSync("posts");
-    // console.log(posts);
-    postData.postlist = posts;
-    this.setData({
-      data_key:postData.postlist
-    })
-    console.log(postData.postlist)
+    
   },
+
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
@@ -56,14 +46,7 @@ Page({
    * 页面相关事件处理函数--监听用户下拉动作
    */
   onPullDownRefresh: function () {
-    var posts = wx.getStorageSync("posts");
-    // console.log(posts);
-    postData.postlist = posts;
-    this.setData({
-      data_key: postData.postlist
-    })
-
-    wx.stopPullDownRefresh()
+    
   },
 
   /**

@@ -19,6 +19,7 @@
         </view>
         <view class='love-post'>
           <text>{{item.post}}</text>
+          <text>{{post}}</text>
         </view>
         <view class='detil'>
           <image src='images/zan.png' class='zan'></image>
